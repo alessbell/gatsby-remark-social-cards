@@ -21,11 +21,12 @@ It can be added to your remark plugins in `gatsby-config.js` like so:
               title: 'anti/pattern', // website title
               separator: '|', // default
               author: 'alessia bellisario',
-              background: require.resolve('./content/assets/base.png') // defaults to black
-              fontColor: '#228B22', // defaults to white
+              background: require.resolve('./content/assets/base.png') // path to 1200x630px file or hex code, defaults to black (#000000)
+              fontColor: '#228B22', // defaults to white (#ffffff)
               titleFontSize: 96, // default
               subtitleFontSize: 60, // default
               fontStyle: 'monospace', // default
+              fontFile: require.resolve('./assets/fonts/someFont.ttf') // will override fontStyle - path to custom TTF font
             },
           },
         ],
@@ -46,6 +47,7 @@ It can be added to your remark plugins in `gatsby-config.js` like so:
 | `titleFontSize`    | ❌       | int                                                | `96`          |
 | `subtitleFontSize` | ❌       | int                                                | `60`          |
 | `fontStyle`        | ❌       | "monospace" or "sans-serif"                        | `monospace`   |
+| `fontFile`         | ❌       | path to TTF font file                              | ❌            |
 
 The images will be saved in your site's `/public` folder, and the link to your `twitter:image` should be an absolute URL (something like `${siteUrl}${blogPostSlug}twitter-card.jpg`) E.g. for [this blog post](https://aless.co/how-to-build-a-keyboard/) the generated image can be found at the link [https://aless.co/how-to-build-a-keyboard/twitter-card.jpg](https://aless.co/how-to-build-a-keyboard/twitter-card.jpg).
 
@@ -53,10 +55,10 @@ Further instructions on how to include open graph images in the metadata of your
 
 ## Roadmap
 
-- [ ] Custom OTF/TTF fonts
+- [x] Custom TTF fonts 🎉
 - [x] Monospace or sans serif font
 - [x] Custom title font size
 - [x] Custom subtitle font size
 - [x] Custom font color
 - [x] Accept path to background image
-- [x] Solid color card background
+- [x] OR solid color background with hex code

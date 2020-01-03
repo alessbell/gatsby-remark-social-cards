@@ -1,3 +1,5 @@
+/*eslint-env node*/
+const fs = require("fs");
 const path = require("path");
 const Jimp = require("jimp");
 const twitterCard = require("wasm-twitter-card");
@@ -46,6 +48,7 @@ module.exports = (
     subtitleFontSize = 60,
     fontStyle = "monospace",
     separator = "|",
+    fontFile,
   }
 ) => {
   const post = markdownNode.frontmatter;
@@ -65,13 +68,22 @@ module.exports = (
       title && author ? `${title} ${separator} ${author}` : title || author;
   }
 
+  const fontToUint8Array = fontFile
+    ? fs.readFileSync(require.resolve(fontFile), null)
+    : new Uint8Array();
+
+  if (fontFile) {
+    fontStyle = "custom";
+  }
+
   const buffer = twitterCard.generate_text(
     post.title,
     formattedDetails,
     titleFontSize,
     subtitleFontSize,
     hexToRgb(fontColor),
-    fontStyle !== "monospace"
+    fontStyle,
+    fontToUint8Array
   );
 
   return Promise.all([generateBackground(background), writeTextToCard(buffer)])
