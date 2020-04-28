@@ -21,7 +21,7 @@ It can be added to your remark plugins in `gatsby-config.js` like so:
               title: 'anti/pattern', // website title
               separator: '|', // default
               author: 'alessia bellisario',
-              background: require.resolve('./content/assets/base.png') // path to 1200x630px file or hex code, defaults to black (#000000)
+              background: require.resolve('./content/assets/base.png'), // path to 1200x630px file or hex code, defaults to black (#000000)
               fontColor: '#228B22', // defaults to white (#ffffff)
               titleFontSize: 96, // default
               subtitleFontSize: 60, // default
