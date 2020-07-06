@@ -1,8 +1,6 @@
 <div align="center">
   <h1>gatsby-remark-twitter-cards 📇</h1>
   
-  <hr />
-  
   <p>
     <a href="https://www.npmtrends.com/gatsby-remark-twitter-cards" title="Downloads"><img src="https://img.shields.io/npm/dm/gatsby-remark-twitter-cards.svg"/></a>
     <a href="https://github.com/prettier/prettier" title="Prettier Code Formatting"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-round"/></a>
