@@ -1,4 +1,9 @@
-# gatsby-remark-twitter-cards 📇
+<div align="center">
+<h1>gatsby-remark-twitter-cards 📇</h1>
+</div>
+
+<hr />
+[![downloads][downloads-badge]][npmtrends]
 
 ![gatsby-remark-twitter-cards in action](https://i.imgur.com/FgObEBR.jpg)
 
