@@ -3,7 +3,8 @@
 </div>
 
 <hr />
-[![downloads][downloads-badge]][npmtrends]
+
+[![downloads][https://img.shields.io/npm/dm/gatsby-remark-twitter-cards.svg]][https://www.npmtrends.com/gatsby-remark-twitter-cards]
 
 ![gatsby-remark-twitter-cards in action](https://i.imgur.com/FgObEBR.jpg)
 
@@ -67,5 +68,3 @@ Further instructions on how to include open graph images in the metadata of your
 - [x] Custom font color
 - [x] Accept path to background image
 - [x] OR solid color background with hex code
-
-[downloads-badge]: https://img.shields.io/npm/dm/gatsby-remark-twitter-cards.svg
