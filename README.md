@@ -3,14 +3,14 @@
   
   <hr />
   
-    <p>
+  <p>
     <a href="https://www.npmtrends.com/gatsby-remark-twitter-cards" title="Downloads"><img src="https://img.shields.io/npm/dm/gatsby-remark-twitter-cards.svg"/></a>
     <a href="https://github.com/prettier/prettier" title="Prettier Code Formatting"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-round"/></a>
     <a href="https://david-dm.org/alessbell/gatsby-remark-twitter-cards" title="Dependencies Status"><img src="https://david-dm.org/alessbell/gatsby-remark-twitter-cards/status.svg"/></a>
   </p>
-
-  ![gatsby-remark-twitter-cards in action](https://i.imgur.com/FgObEBR.jpg)
 </div>
+
+![gatsby-remark-twitter-cards in action](https://i.imgur.com/FgObEBR.jpg)
 
 `gatsby-remark-twitter-cards` is a Gatsby plugin that allows you to create individual open graph twitter card images at build time for inclusion in your site's SEO metadata. It generates cards as JPGs with embedded text in the recommended size of 1200px x 630px.
 
