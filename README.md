@@ -67,3 +67,5 @@ Further instructions on how to include open graph images in the metadata of your
 - [x] Custom font color
 - [x] Accept path to background image
 - [x] OR solid color background with hex code
+
+[downloads-badge]: https://img.shields.io/npm/dm/gatsby-remark-twitter-cards.svg
