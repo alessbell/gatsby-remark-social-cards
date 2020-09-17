@@ -49,6 +49,7 @@ module.exports = (
     fontStyle = "monospace",
     separator = "|",
     fontFile,
+    useFrontmatterSlug = false,
   }
 ) => {
   const post = markdownNode.frontmatter;
@@ -56,11 +57,8 @@ module.exports = (
   validateFontSize(titleFontSize, "titleFontSize");
   validateFontSize(subtitleFontSize, "subtitleFontSize");
 
-  const output = path.join(
-    "./public",
-    markdownNode.fields.slug,
-    "twitter-card.jpg"
-  );
+  const slug = useFrontmatterSlug ? post.slug : markdownNode.fields.slug;
+  const output = path.join("./public", slug, "twitter-card.jpg");
 
   let formattedDetails = "";
   if (title || author) {
@@ -88,11 +86,11 @@ module.exports = (
 
   return Promise.all([generateBackground(background), writeTextToCard(buffer)])
     .then(([base, text]) => base.composite(text, 0, 0))
-    .then(image =>
+    .then((image) =>
       image
         .writeAsync(output)
         .then(() => console.log("Generated Twitter Card: ", output))
-        .catch(err => err)
+        .catch((err) => err)
     )
     .catch(console.error);
 };
