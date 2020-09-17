@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-twitter-cards",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Gatsby Remark plugin for generating Twitter Open Graph cards",
   "repository": "https://github.com/alessbell/gatsby-remark-twitter-cards",
   "author": "Alessia Bellisario",
