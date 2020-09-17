@@ -1,10 +1,11 @@
 <div align="center">
   <h1>gatsby-remark-twitter-cards 📇</h1>
-  
   <p>
     <a href="https://www.npmtrends.com/gatsby-remark-twitter-cards" title="Downloads"><img src="https://img.shields.io/npm/dm/gatsby-remark-twitter-cards.svg"/></a>
     <a href="https://github.com/prettier/prettier" title="Prettier Code Formatting"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-round"/></a>
+    <a href="https://www.npmjs.org/package/gatsby-remark-twitter-cards"><img src="https://img.shields.io/npm/v/gatsby-remark-twitter-cards.svg?style=flat-square"/></a>
     <a href="https://david-dm.org/alessbell/gatsby-remark-twitter-cards" title="Dependencies Status"><img src="https://david-dm.org/alessbell/gatsby-remark-twitter-cards/status.svg"/></a>
+    <a href="https://github.com/syntra/gatsby-remark-social-cards/blob/master/LICENCE.md"><img src="https://img.shields.io/github/license/syntra/gatsby-remark-social-cards.svg?style=flat-square"/></a>
   </p>
 </div>
 
