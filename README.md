@@ -35,7 +35,7 @@ It can be added to your remark plugins in `gatsby-config.js` like so:
               titleFontSize: 96, // default
               subtitleFontSize: 60, // default
               fontStyle: 'monospace', // default
-              fontFile: require.resolve('./assets/fonts/someFont.ttf') // will override fontStyle - path to custom TTF font
+              fontFile: require.resolve('./assets/fonts/someFont.ttf'), // will override fontStyle - path to custom TTF font
               useFrontmatterSlug: false // default, if true it will use the slug defined in the post frontmatter
             },
           },

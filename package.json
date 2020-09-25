@@ -29,7 +29,7 @@
     }
   },
   "dependencies": {
-    "jimp": "^0.14.0",
+    "jimp": "^0.16.1",
     "path": "^0.12.7",
     "wasm-twitter-card": "^0.3.0"
   },
