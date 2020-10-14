@@ -5,7 +5,7 @@
     <a href="https://github.com/prettier/prettier" title="Prettier Code Formatting"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-round"/></a>
     <a href="https://www.npmjs.org/package/gatsby-remark-twitter-cards"><img src="https://img.shields.io/npm/v/gatsby-remark-twitter-cards.svg?style=flat-round"/></a>
     <a href="https://david-dm.org/alessbell/gatsby-remark-twitter-cards" title="Dependencies Status"><img src="https://david-dm.org/alessbell/gatsby-remark-twitter-cards/status.svg"/></a>
-    <a href="https://github.com/syntra/gatsby-remark-social-cards/blob/master/LICENCE.md"><img src="https://img.shields.io/github/license/syntra/gatsby-remark-social-cards.svg?style=flat-round"/></a>
+    <a href="https://packagequality.com/#?package=gatsby-remark-twitter-cards"><img src="https://npm.packagequality.com/badge/gatsby-remark-twitter-cards.png"/></a>
   </p>
 </div>
 
